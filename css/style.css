@@ -745,7 +745,6 @@ background-position: center;}
     flex-direction: column;
     margin-left: 1.5%;
     min-height: 300px;
-    max-height: 1300px;
     overflow: auto;
     padding: 1% 2% .5% 2%;
     box-shadow:0 1px 8px rgb(0 0 0 / 30%);

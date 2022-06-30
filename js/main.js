@@ -9,7 +9,6 @@ var telephone_number = "(860) 478-2023";
 var email_address = "Kayronmacon@gmail.com";
 
 
-
 /* Mobile Hamburger Toggle */
 
 function hamburgerToggle() {
@@ -17,11 +16,18 @@ function hamburgerToggle() {
 	var b = document.getElementById("nav-icon1");
 	if (x.style.display === "block") {
 	  x.style.display = "none";
-	  b.classList.remove("open");
+	  
 	} else {
 	  x.style.display = "block";
 	  b.classList.add("open");
 	}
+  }
+
+  function closeOnClick() {
+	var x = document.getElementById("bln_mobile_menu");
+	var b = document.getElementById("nav-icon1");
+	b.classList.remove("open");
+	x.style.display = "none";
   }
 
   /* Sets attr for the data-tooltips icons */
