@@ -16,6 +16,7 @@ function hamburgerToggle() {
 	var b = document.getElementById("nav-icon1");
 	if (x.style.display === "block") {
 	  x.style.display = "none";
+	  b.classList.remove("open")
 	  
 	} else {
 	  x.style.display = "block";
